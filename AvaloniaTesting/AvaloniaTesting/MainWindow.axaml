@@ -4,6 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaTesting.MainWindow"
-        Title="AvaloniaTesting">
-    Welcome to Avalonia!
+        Title="Главное окно">
+    <TextBlock Name="WelcomeTextBox" Background="LightGray" TextAlignment="Center" Padding="100" PointerPressed="TextBox_PointerPressed">Welcome to Avalonia!</TextBlock>
+
 </Window>
